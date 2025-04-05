@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <script src="quiz.js" defer></script> <!-- Added defer to ensure JS is loaded after HTML -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-app">
+        <h2>Quiz-App</h2>
+      </div>
+      <div class="content">
+        <p id="question">Loading Question...</p>
+        <div id="answers-button" class="btn-container">
+          <!-- Answer buttons will be dynamically added here -->
+        </div>
+      </div>
+      <div class="controls">
+        <button id="next-button" class="next-btn hide">Next</button>
+      </div>
+      <div id="score">Score : 0</div>
+    </div>
+  </body>
+</html>
